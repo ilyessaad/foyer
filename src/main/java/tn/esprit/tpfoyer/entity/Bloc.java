@@ -17,7 +17,7 @@ import java.util.Set;
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Bloc {
-    //cgi
+    //cg
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
