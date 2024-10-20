@@ -33,6 +33,10 @@ public class Foyer {
             @ToString.Exclude
     Set<Bloc> blocs;
 
+    public Foyer(String nomFoyer, long capaciteFoyer) {
+        this.nomFoyer=nomFoyer;
+        this.capaciteFoyer=capaciteFoyer;
+    }
 }
 
 
