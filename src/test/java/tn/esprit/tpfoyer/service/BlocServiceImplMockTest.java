@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @ExtendWith(MockitoExtension.class)
-public class BlocServiceImplMockTest {
+ class BlocServiceImplMockTest {
     @Mock
     BlocRepository blocRepository ;
     @InjectMocks
