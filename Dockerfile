@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine AS downloader
 RUN apk add --no-cache curl
 
 # Définir l'URL du JAR dans une variable d'environnement
-ENV JAR_URL=http://192.168.65.160:8081/repository/MyPrivRepo/tp-foyer-5.0.0.jar
+ENV JAR_URL=http://192.168.65.160:8081/repository/MyPrivRepo/tn/esprit/tp-foyer/5.0.0/tp-foyer-5.0.0.jar
 
 # Télécharger le JAR depuis Nexus
 RUN curl -u admin:Zakaria123456! -o /tp-foyer-5.0.0.jar $JAR_URL
